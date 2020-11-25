@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/endeavour.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: #042204;
+  padding-top: 25vh;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  color: #b10e0e;
+}
+
+#translate {
+  margin-left: 0vh;
+}
+
+#text {
+  margin-left: 90vh;
+}
+
+#result {
+  margin-left: 85vh;
+  font-size: xx-large;
+}
+
+#refresh {
+  margin-left: 108vh;
+}
+
+@media screen and (max-width: 701px) {
+  #text {
+    margin-left: 45vh;
+  }
+}
+@media screen and (max-width: 426px) {
+  #text {
+    margin-left: 20vh;
+  }
+}
